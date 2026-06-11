@@ -783,6 +783,12 @@ h1 {
   flex: 1 1 190px;
 }
 
+.modal__actions .modal__download-button {
+  flex: 0 0 auto;
+  width: auto;
+  align-self: flex-start;
+}
+
 @media (max-width: 1080px) {
   h1 {
     font-size: 4rem;
@@ -1000,6 +1006,10 @@ h1 {
   .hero__actions .button,
   .modal__actions .button {
     width: 100%;
+  }
+
+  .modal__actions .modal__download-button {
+    width: auto;
   }
 
   .section__header h2,
