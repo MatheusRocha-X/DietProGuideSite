@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DietProGuide - App de Nutrição, Dieta e Acompanhamento Alimentar</title>
+    <meta
+      name="description"
+      content="Registre refeições, acompanhe calorias, macros, hidratação e evolução de peso com o DietProGuide, seu guia nutricional inteligente para hábitos mais consistentes."
+    />
+    <meta name="theme-color" content="#4CAF50" />
+    <meta property="og:title" content="DietProGuide" />
+    <meta
+      property="og:description"
+      content="Seu guia nutricional inteligente para registrar refeições, acompanhar metas e evoluir com mais clareza todos os dias."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="icon.png" />
+    <link rel="icon" type="image/png" href="icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Cabeçalho principal">
+      <a class="brand" href="#inicio" aria-label="DietProGuide início">
+        <img src="icon.png" alt="" class="brand__icon" />
+        <span>DietProGuide</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#recursos">Recursos</a>
+        <a href="#app">Aplicativo</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <button class="button button--small button--primary js-open-download" type="button">
+        Baixar App
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero__visual" aria-hidden="true">
+          <img
+            class="hero__phone hero__phone--left"
+            src="imagens app/Screenshot_2026-06-10-22-14-42-802_com.dietproguide.diet_pro_guide-edit.jpg"
+            alt=""
+          />
+          <img
+            class="hero__phone hero__phone--center"
+            src="imagens app/Screenshot_2026-06-10-22-15-50-960_com.dietproguide.diet_pro_guide-edit.jpg"
+            alt=""
+          />
+          <img
+            class="hero__phone hero__phone--right"
+            src="imagens app/Screenshot_2026-06-10-22-16-47-534_com.dietproguide.diet_pro_guide-edit.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="hero__content">
+          <img class="hero__icon" src="icon.png" alt="Ícone do aplicativo DietProGuide" />
+          <p class="eyebrow">Registre. Acompanhe. Evolua.</p>
+          <h1>DietProGuide</h1>
+          <p class="hero__subtitle">
+            Seu guia nutricional inteligente para registrar refeições, acompanhar metas e
+            evoluir com mais clareza todos os dias.
+          </p>
+          <div class="hero__actions">
+            <button class="button button--primary js-open-download" type="button">
+              Baixar App
+            </button>
+            <a class="button button--ghost" href="#recursos">Ver recursos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-stats" aria-label="Resumo dos recursos">
+        <div>
+          <strong>Metas diárias</strong>
+          <span>Calorias, macros e água em um painel simples.</span>
+        </div>
+        <div>
+          <strong>Scanner OCR</strong>
+          <span>Leitura de tabelas nutricionais pelo celular.</span>
+        </div>
+        <div>
+          <strong>Rotina motivadora</strong>
+          <span>Lembretes e conquistas para manter consistência.</span>
+        </div>
+      </section>
+
+      <section class="section section--intro">
+        <div class="section__header">
+          <p class="eyebrow">Como funciona</p>
+          <h2>Uma rotina nutricional mais organizada, sem complicar seu dia.</h2>
+          <p>
+            Configure seu perfil, receba metas personalizadas, registre alimentos e acompanhe
+            sua evolução em uma interface clara, rápida e pensada para uso diário.
+          </p>
+        </div>
+
+        <div class="steps" aria-label="Etapas de uso">
+          <article class="step">
+            <span>01</span>
+            <h3>Crie seu perfil</h3>
+            <p>Informe dados físicos, objetivo e nível de atividade para gerar metas diárias.</p>
+          </article>
+          <article class="step">
+            <span>02</span>
+            <h3>Registre refeições</h3>
+            <p>Organize café da manhã, almoço, lanches, jantar, ceia e refeição livre.</p>
+          </article>
+          <article class="step">
+            <span>03</span>
+            <h3>Acompanhe progresso</h3>
+            <p>Veja calorias, macros, hidratação, peso e conquistas em diferentes períodos.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="recursos">
+        <div class="section__header section__header--split">
+          <div>
+            <p class="eyebrow">Recursos principais</p>
+            <h2>Tudo que você precisa para acompanhar sua alimentação.</h2>
+          </div>
+          <p>
+            O DietProGuide reúne metas, registros, hidratação, scanner, lembretes e conquistas
+            em um único aplicativo.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature feature--green">
+            <span class="feature__icon" aria-hidden="true">✓</span>
+            <h3>Metas personalizadas</h3>
+            <p>Calorias, proteínas, carboidratos, gorduras e água calculados com base no perfil.</p>
+          </article>
+          <article class="feature feature--amber">
+            <span class="feature__icon" aria-hidden="true">+</span>
+            <h3>Registro de refeições</h3>
+            <p>Somas automáticas por refeição para entender o consumo do dia com clareza.</p>
+          </article>
+          <article class="feature feature--blue">
+            <span class="feature__icon" aria-hidden="true">~</span>
+            <h3>Hidratação diária</h3>
+            <p>Acompanhe sua meta de água e adicione porções rápidas de 250 ml.</p>
+          </article>
+          <article class="feature feature--indigo">
+            <span class="feature__icon" aria-hidden="true">⌕</span>
+            <h3>Biblioteca de alimentos</h3>
+            <p>Salve alimentos recorrentes para reutilizar e acelerar os próximos registros.</p>
+          </article>
+          <article class="feature feature--red">
+            <span class="feature__icon" aria-hidden="true">▣</span>
+            <h3>Scanner nutricional</h3>
+            <p>Use OCR para transformar dados de rótulos em informações úteis no app.</p>
+          </article>
+          <article class="feature feature--green">
+            <span class="feature__icon" aria-hidden="true">★</span>
+            <h3>Conquistas e lembretes</h3>
+            <p>Receba incentivos para manter hábitos e configure alertas da sua rotina.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="showcase" id="app">
+        <div class="showcase__copy">
+          <p class="eyebrow">Experiência do app</p>
+          <h2>Visualize metas, refeições e evolução em telas simples de entender.</h2>
+          <p>
+            A navegação foi desenhada para que o acompanhamento alimentar pareça natural:
+            poucos toques, cards claros e informações importantes sempre à vista.
+          </p>
+          <button class="button button--primary js-open-download" type="button">
+            Baixar App
+          </button>
+        </div>
+
+        <div class="phone-stage" aria-label="Prévia de telas do aplicativo">
+          <img
+            class="phone-stage__item phone-stage__item--back"
+            src="imagens app/Screenshot_2026-06-10-22-15-32-041_com.dietproguide.diet_pro_guide-edit.jpg"
+            alt="Tela de biblioteca de alimentos do DietProGuide"
+          />
+          <img
+            class="phone-stage__item phone-stage__item--front"
+            src="imagens app/Screenshot_2026-06-10-22-14-42-802_com.dietproguide.diet_pro_guide-edit.jpg"
+            alt="Tela inicial do DietProGuide com metas do dia, macronutrientes e hidratação"
+          />
+        </div>
+      </section>
+
+      <section class="section section--gallery">
+        <div class="section__header">
+          <p class="eyebrow">Galeria</p>
+          <h2>Conheça as áreas que acompanham sua rotina.</h2>
+        </div>
+
+        <div class="gallery">
+          <article class="gallery-card">
+            <img
+              src="imagens app/Screenshot_2026-06-10-22-15-04-302_com.dietproguide.diet_pro_guide-edit.jpg"
+              alt="Tela de lanche da tarde com alimentos e botões de escanear e adicionar alimento"
+            />
+            <h3>Refeições</h3>
+            <p>Itens, calorias e macros organizados por momento do dia.</p>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="imagens app/Screenshot_2026-06-10-22-15-50-960_com.dietproguide.diet_pro_guide-edit.jpg"
+              alt="Tela de progresso do DietProGuide com calorias, proteínas e água"
+            />
+            <h3>Progresso</h3>
+            <p>Resumo visual por hoje, semana, mês e ano.</p>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="imagens app/Screenshot_2026-06-10-22-16-05-245_com.dietproguide.diet_pro_guide-edit.jpg"
+              alt="Tela de perfil com estatísticas e configurações"
+            />
+            <h3>Perfil</h3>
+            <p>Dados físicos, objetivo, estatísticas e ajustes em um só lugar.</p>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="imagens app/Screenshot_2026-06-10-22-16-37-549_com.dietproguide.diet_pro_guide-edit.jpg"
+              alt="Tela de lembretes com alertas de água e registro de refeições"
+            />
+            <h3>Lembretes</h3>
+            <p>Alertas de água, refeições, pesagem e rotinas personalizadas.</p>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="imagens app/Screenshot_2026-06-10-22-16-47-534_com.dietproguide.diet_pro_guide-edit.jpg"
+              alt="Tela de conquistas desbloqueadas e bloqueadas"
+            />
+            <h3>Conquistas</h3>
+            <p>Motivação extra para registrar, bater metas e manter consistência.</p>
+          </article>
+          <article class="gallery-card">
+            <img
+              src="imagens app/Screenshot_2026-06-10-22-14-24-375_com.dietproguide.diet_pro_guide-edit.jpg"
+              alt="Tela de carregamento do DietProGuide"
+            />
+            <h3>Identidade</h3>
+            <p>Uma experiência visual leve, verde e focada em saúde.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--focus">
+        <div class="focus-block">
+          <div>
+            <p class="eyebrow">Scanner OCR</p>
+            <h2>Escaneie tabelas nutricionais e cadastre alimentos com menos trabalho.</h2>
+          </div>
+          <p>
+            O recurso de OCR ajuda a capturar informações de rótulos para facilitar o cadastro
+            e transformar dados nutricionais em registros úteis.
+          </p>
+        </div>
+        <div class="focus-block focus-block--dark">
+          <div>
+            <p class="eyebrow">Consistência</p>
+            <h2>Lembretes e conquistas mantêm a rotina em movimento.</h2>
+          </div>
+          <p>
+            Configure alertas para beber água, registrar refeições e acompanhar pesagens.
+            Conforme você evolui, conquistas reforçam os hábitos que importam.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="section__header">
+          <p class="eyebrow">Dúvidas frequentes</p>
+          <h2>O que saber antes de começar.</h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>O DietProGuide substitui um nutricionista?</summary>
+            <p>
+              Não. O DietProGuide é uma ferramenta de organização e acompanhamento. Ele não
+              substitui orientação individual de um profissional de saúde ou nutrição.
+            </p>
+          </details>
+          <details>
+            <summary>O app calcula minhas metas?</summary>
+            <p>
+              Sim. O app calcula metas com base nos dados informados no perfil, como peso,
+              altura, idade, sexo, nível de atividade e objetivo.
+            </p>
+          </details>
+          <details>
+            <summary>Posso registrar água?</summary>
+            <p>Sim. O app possui controle de hidratação diária com meta personalizada.</p>
+          </details>
+          <details>
+            <summary>O app tem lembretes?</summary>
+            <p>Sim. Há lembretes para água, refeições, pesagem e rotinas personalizadas.</p>
+          </details>
+          <details>
+            <summary>Meus dados ficam salvos em nuvem?</summary>
+            <p>
+              Na versão atual, os dados são armazenados localmente no dispositivo. Em futuras
+              versões, sincronização e backup podem ser adicionados.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-label="Chamada final">
+        <img src="icon.png" alt="" />
+        <h2>Comece hoje a entender melhor sua alimentação.</h2>
+        <p>
+          Baixe o DietProGuide e leve suas metas nutricionais para uma rotina mais simples,
+          visual e consistente.
+        </p>
+        <button class="button button--primary js-open-download" type="button">Baixar App</button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>DietProGuide</strong>
+        <p>Ferramenta de apoio ao acompanhamento nutricional.</p>
+      </div>
+      <p>
+        O app não realiza diagnóstico, prescrição médica ou plano alimentar individualizado.
+        Para objetivos específicos de saúde, procure acompanhamento profissional.
+      </p>
+    </footer>
+
+    <div class="modal" id="download-modal" aria-hidden="true">
+      <div class="modal__backdrop" data-close-modal></div>
+      <section
+        class="modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="download-title"
+        tabindex="-1"
+      >
+        <button class="modal__close" type="button" aria-label="Fechar" data-close-modal>×</button>
+        <img class="modal__icon" src="icon.png" alt="" />
+        <p class="eyebrow">Obrigado pelo apoio</p>
+        <h2 id="download-title">Seu download está quase pronto.</h2>
+        <p>
+          Obrigado por conhecer o DietProGuide. Esse app nasceu para deixar o acompanhamento
+          nutricional mais simples, visual e acessível. Se ele te ajudar, qualquer apoio via Pix
+          é muito bem-vindo e ajuda o projeto a continuar evoluindo.
+        </p>
+        <div class="pix-box">
+          <span>Pix opcional</span>
+          <button
+            class="pix-copy"
+            id="copy-pix"
+            type="button"
+            data-pix-code="00020126920014br.gov.bcb.pix0136bad11445-c0fe-4f9e-87f9-a84cd0805cb90230Projeto Underground Street Map5204000053039865802BR5925MATHEUS DO NASCIMENTO ROC6009Sao Paulo62290525REC6A01F0A5A00815588142636304FC44"
+          >
+            Clique aqui para copiar o Pix
+          </button>
+        </div>
+        <p class="modal__feedback" id="copy-feedback" role="status" aria-live="polite"></p>
+        <div class="modal__actions">
+          <a
+            class="button button--primary"
+            href="https://drive.google.com/file/d/1GObhLci80uqQ4Kje6q5J8RWqBnUfGgNr/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Baixar APK
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
