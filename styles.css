@@ -786,7 +786,7 @@ h1 {
 .modal__actions .modal__download-button {
   flex: 0 0 auto;
   width: auto;
-  align-self: flex-start;
+  margin-inline: auto;
 }
 
 @media (max-width: 1080px) {
